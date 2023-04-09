@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{width:auto;
+    font-family: 'Oswald';
+}
+.header{  width: auto;
+    height: 110px;
+
+}
+
+.nav{width:auto;
+    
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 80px;
+box-sizing: border-box;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.logo{
+    width: 204px;
+height: 53px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+
+text-align: center;
+text-transform: uppercase;
+text-decoration:  none;
+margin: 0px 10px;
+color: #000000;
+}
+.menu{width: auto;
+    display:flex;
+    
+    height:100% ;
+    align-items: center;
+    list-style: none;
+
+
+    
+  
+ 
+}
+ 
+.menu__li{
+ 
+    margin: 0 46px;
+   
+}
+
+    .link{
+        font-size: 24px;
+    display: flex;
+text-align: center;
+margin-left: 20px;;
+text-transform: uppercase;
+text-decoration: none;
+color: #000000;
+
+    }
+    .link:hover{color:bisque;
+        text-decoration: underline;
+
+    }
+
+   /*блоки*/
+   main{width: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+
+   .blok_1{width: auto;
+    
+height: 812px;
+background-image: url(https://images.unsplash.com/photo-1494415859740-21e878dd929d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
+   background-position:center;
+   background-color: bisque;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+   .blok_1_text{
+
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 89px;
+
+text-transform: uppercase;
+color:#FFFFFF;
+
+   }
+   .blok_1_line{
+    
+    width: 80px;
+height: 10px;
+background: #817070;
+
+   }
+   /*блок2*/
+   .blok_2{width:auto;
+    display: flex;
+flex-direction: column;
+align-items: center;
+   
+height: 100%;
+
+
+   }
+/* посмотреть выравнивание*/
+   .story{
+    text-transform: uppercase;
+  text-align: center;
+
+font-size: 52px;
+
+
+
+
+color: #000000;
+
+   }
+   .blok__2{
+    
+    display: flex;
+    justify-content:space-between ;
+margin-top: 25px;
+padding-top: 10px;
+margin-bottom: 10px;
+
+
+   }
+  
+   
+   .img2{
+   
+  
+
+width: 600px;
+height: 400px;
+
+   }
+   .blok_2_text{
+    padding-top: 60px;
+    
+
+
+font-size: 24px;
+margin-left: 15px;
+padding-left: 20px;
+
+
+text-align: justify;
+width: 550px;
+color: #000000;
+
+}
+
+/* блок3*/
+.blok_3{width:auto;
+    height: 711px;
+    background: #EFEFEF;
+ 
+}
+.blok_3_text{
+    text-transform: uppercase;
+    text-align: center;
+}
+.sections{width: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    height: 711px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+section
+
+{width: 365px;
+    height: 474px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+   
+    padding-top: 25px;
+
+    
+}
+section:hover{
+    background-color: bisque;
+}
+
+img{width: 325px;
+    height: 216px;
+  
+padding-left: 18px;
+}
+h2{
+    text-transform: capitalize;
+}
+.section_text_{
+    font-family: 'Oswald';
+font-style: normal;
+
+font-size: 18px;
+line-height: 27px;
+text-align:justify;
+color: #000000;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+/*блок4*/
+.blok_4{width: auto;
+    height: 337px;
+    background: #817070;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.blok_4_text{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 0px;
+margin-bottom: 24px;
+padding-top: 15px;
+
+color: #FFFFFF;
+
+
+}
+.blok_input{text-transform:lowercase;
+    width: 300px;
+height: 55px;
+background: #817070;
+box-sizing: border-box;
+border: 3px solid #FFFFFF;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+display: flex;
+justify-content: center;
+text-align: center;
+
+color: #FFFFFF;}
+.blok_input:hover{
+    background-color:rgb(110, 104, 95);
+}
+
+
+
+
+button{text-transform: uppercase;
+padding: 15px;
+margin-top: 15px;}
+/*footer*/
+footer{width: auto;
+   
+height: 72px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-text{
+ 
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+}
